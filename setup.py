@@ -9,7 +9,8 @@ setup(name='pymongo-schema',
       packages=['pymongo_schema'],
       install_requires=[
           'pymongo',
-          'pyyaml'
+          'pyyaml',
+          'docopt'
       ],
       entry_points={
           'console_scripts': [
